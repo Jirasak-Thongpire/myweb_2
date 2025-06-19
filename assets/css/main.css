@@ -697,6 +697,17 @@ section,
   background-color: var(--accent-color);
 }
 
+.skills .skills-content {
+  display: flex;
+  justify-content: center; /* จัดแนวนอนให้อยู่ตรงกลาง */
+  flex-wrap: wrap;         /* รองรับจอเล็ก */
+}
+
+.skills .skills-content .col-lg-6 {
+  max-width: 600px;
+  width: 100%;
+}
+  
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
